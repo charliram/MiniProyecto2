@@ -14,6 +14,7 @@ import { TiendaComponent } from './tienda/tienda.component';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { TablaComponent } from './tabla/tabla.component';
+import { DomseguroPipe } from './domseguro.pipe';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { TablaComponent } from './tabla/tabla.component';
     UnheroeComponent,
     VideoComponent,
     TiendaComponent,
-    TablaComponent
+    TablaComponent,
+    DomseguroPipe
   ],
   imports: [
     BrowserModule,
